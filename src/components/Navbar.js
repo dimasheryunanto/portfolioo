@@ -1,17 +1,18 @@
 import React, { Component } from 'react';
 import { Link, animateScroll as scroll } from "react-scroll";
+// import { Nav } from 'react-boot';
 class Navbar extends Component {
     state = {  }
     scrollToTop = () => {
         scroll.scrollToTop();
     };
     render() { 
-        return (<nav>
+        return (<nav className="navbar navbar-light bg-light">
             <ul>
                 <li><Link
                     className='link'
                     activeClass="active"
-                    to="homw"
+                    to="home"
                     spy={true}
                     smooth={true}
                     offset={-70}

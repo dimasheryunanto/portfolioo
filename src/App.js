@@ -6,7 +6,7 @@ import About from './components/About';
 import Work from './components/work';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar'
-
+// import 'bootstrap/dist/css/bootstrap.min.css';
 function App() {
   return (
     <div className="App">
