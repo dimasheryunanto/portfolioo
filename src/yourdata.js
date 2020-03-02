@@ -65,7 +65,7 @@ export default
         social: [
             // Add Or Remove The Link Accordingly
             {   name:'Github',
-                url:'https://github.com/Dimas-2002'},
+                url:'https://github.com/dimasheryunanto'},
             {
                 name: 'Instagram',
                 url: 'https://www.instagram.com/dimasheryu/'
